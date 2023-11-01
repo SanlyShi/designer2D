@@ -1,0 +1,51 @@
+{
+  "name": "design",
+  "version": "0.2.482",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+
+    "build": "vue-cli-service build --mode master",
+    "prebuild": "npm i git+ssh://git@192.168.3.36:4422/root/zwdc3d.git#master",
+    "build:production": "vue-cli-service build --mode preproduct",
+    "prebuild:production": "npm i git+ssh://git@192.168.3.36:4422/root/zwdc3d.git#preproduct",
+    "build:sandbox": "vue-cli-service build --mode sandbox",
+    "prebuild:sandbox": "npm i git+ssh://git@192.168.3.36:4422/root/zwdc3d.git#sandbox",
+    "build:test": "vue-cli-service build --mode test",
+    "prebuild:test": "npm i git+ssh://git@192.168.3.36:4422/root/zwdc3d.git#test",
+
+    "stop": "taskkill /f /t /im node.exe",
+    "rm": "rimraf dist"
+  },
+  "dependencies": {
+    "@sentry/tracing": "^7.12.0",
+    "@sentry/vue": "^7.12.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.1.1",
+    "element-ui": "^2.14.1",
+    "js-cookie": "^2.2.1",
+    "minimist": "^1.2.5",
+    "qs": "^6.9.4",
+    "swiper": "5.4.5",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-meta": "^2.4.0",
+    "vuex": "^3.6.0",
+    "zw-3d": "git+ssh://git@192.168.3.36:4422/root/zwdc3d.git#test"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "copy-webpack-plugin": "^6.4.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

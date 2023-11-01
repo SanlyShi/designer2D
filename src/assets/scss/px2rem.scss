@@ -1,0 +1,15 @@
+@charset "utf-8";
+//设计稿尺寸转换CSS尺寸参数值
+// $design-size:750;				//设计稿大小
+// $remBase:100;					//设计稿栅格大小
+// $unit:$design-size/$remBase*10;	//转换单位
+$unit: 100;
+
+@function px2rem($size) {
+  @return $size/$unit + rem;
+}
+@function fontcov($size) {
+  //$rate : $design-size/320;
+  //@return $size/$rate+px;
+  @return $size/$unit + rem;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="130px" viewBox="0 0 150 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>通用空元素</title>
+    <defs>
+        <linearGradient x1="68.0179177%" y1="47.7278831%" x2="44.4910535%" y2="55.3193518%" id="linearGradient-1">
+            <stop stop-color="#ECECF1" offset="0%"></stop>
+            <stop stop-color="#EBEDF3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="88.1815317%" x2="50%" y2="-2.49800181e-14%" id="linearGradient-2">
+            <stop stop-color="#D9D9E4" offset="0%"></stop>
+            <stop stop-color="#EBEDF3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#EEEEF3" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="41.5217324%" y1="29.52%" x2="70.0917969%" y2="70.48%" id="linearGradient-4">
+            <stop stop-color="#F4F4FA" offset="0%"></stop>
+            <stop stop-color="#E4E4EB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="88.1815317%" x2="50%" y2="25.6885211%" id="linearGradient-5">
+            <stop stop-color="#CECEDB" offset="0.0901442308%"></stop>
+            <stop stop-color="#DADAE2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#F5F8FF" offset="0%"></stop>
+            <stop stop-color="#FBFCFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="缺省页/占位图-元素设计" transform="translate(-105.000000, -374.000000)">
+            <g id="搜索无结果" transform="translate(100.000000, 310.000000)">
+                <g id="通用空元素" transform="translate(5.000000, 64.000000)">
+                    <rect id="矩形" x="0" y="0" width="150" height="130"></rect>
+                    <g transform="translate(3.000000, 24.000000)">
+                        <path d="M144,9 L126.041748,0.918786776 C124.72493,0.326218569 123.238578,0.22842662 121.855473,0.643358096 L97.8430682,7.84707953 C97.049579,8.08512631 96.5993038,8.92135151 96.8373506,9.71484079 C96.9621379,10.1307983 97.2610733,10.4722589 97.6568785,10.6509509 L116.150134,19 L116.150134,19 L144,9 Z" id="路径备份" fill="url(#linearGradient-1)" transform="translate(119.000000, 9.500000) scale(-1, 1) translate(-119.000000, -9.500000) "></path>
+                        <path d="M50,9 L32.0417484,0.918786776 C30.7249302,0.326218569 29.2385779,0.22842662 27.855473,0.643358096 L3.84306823,7.84707953 C3.04957895,8.08512631 2.59930384,8.92135151 2.83735063,9.71484079 C2.96213789,10.1307983 3.2610733,10.4722589 3.65687845,10.6509509 L22.150134,19 L22.150134,19 L50,9 Z" id="路径备份-6" fill="url(#linearGradient-1)"></path>
+                        <path d="M93.9740179,9.15 L121.134018,18.85 L22.8659821,18.85 L50.0259821,9.15 L93.9740179,9.15 Z" id="路径" stroke="url(#linearGradient-3)" stroke-width="0.3" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                        <path d="M22,19 L122,19 L122,75 C122,79.418278 118.418278,83 114,83 L30,83 C25.581722,83 22,79.418278 22,75 L22,19 L22,19 Z" id="矩形" fill="url(#linearGradient-4)" fill-rule="nonzero"></path>
+                        <rect id="矩形" stroke="url(#linearGradient-6)" stroke-width="0.5" fill="url(#linearGradient-5)" fill-rule="nonzero" x="54.25" y="31.25" width="35.5" height="7.5" rx="3.75"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

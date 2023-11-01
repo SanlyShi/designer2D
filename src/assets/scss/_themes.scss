@@ -1,0 +1,59 @@
+//_themes.scss
+//当HTML的data-theme为dark时，样式引用dark
+//data-theme为其他值时，就采用组件库的默认样式
+//这里我只定义了两套主题方案，想要再多只需在`$themes`里加就行了
+//注意一点是，每套配色方案里的key可以自定义但必须一致，不然就会混乱
+
+$themes: (
+  default: (
+    //字体
+    font_color1: #ffffff,
+    font_color2: #0453F3,
+    font_color3: #009aff,
+    font_color4: #495b6e,
+    font_color5: #728592,
+    font_color6: #9cb1c3,
+    font_color7: #52c41a,
+    font_color8: #333333,
+    font_color9: #000000,
+    //背景
+    background_color1: #ffffff,
+    background_color2: #eef2f8,
+    background_color3: #F2F2F2,
+    background_color4: #d2e7f7,
+    background_color5: #f0f3f4,
+    background_color6: #0453F3,
+    background_color7: #dddddd,
+    background_color8: #f8f8f8,
+    background_color9: #f0f5ff,
+    //边框
+    border_color1: rgba(0, 0, 0, 0.15),
+    border_color2: rgba(0, 0, 0, 0.45),
+    border_color3: #0453F3,
+    border_color4: #f0f5ff,
+  ),
+  light: (
+    //字体
+      font_color1: #414141,
+    font_color2: white,
+    //背景
+      background_color1: #fff,
+    background_color2: #f0f2f5,
+    background_color3: red,
+    background_color4: #2674e7,
+    //边框
+      border_color1: #3d414a,
+  ),
+  dark: (
+    //字体
+      font_color1: #a7a7a7,
+    font_color2: white,
+    //背景
+      background_color1: #1b2531,
+    background_color2: #283142,
+    background_color3: #1e6ceb,
+    background_color4: #323e4e,
+    //边框
+      border_color1: #3d414a,
+  ),
+);

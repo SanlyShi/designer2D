@@ -1,0 +1,91 @@
+/* Color
+-------------------------- */
+/// color|1|Brand Color|0
+$zw--color-primary: #0453F3 !default;
+/// color|1|Background Color|4
+$zw--color-white: #ffffff !default;
+/// color|1|Background Color|4
+$zw--color-black: #000000 !default;
+
+$zw--color-primary-light-1: mix(
+  $--color-white,
+  $--color-primary,
+  10%
+) !default; /* 53a8ff */
+$zw--color-primary-light-2: mix(
+  $--color-white,
+  $--color-primary,
+  20%
+) !default; /* 66b1ff */
+$zw--color-primary-light-3: mix(
+  $--color-white,
+  $--color-primary,
+  30%
+) !default; /* 79bbff */
+$zw--color-primary-light-4: mix(
+  $--color-white,
+  $--color-primary,
+  40%
+) !default; /* 8cc5ff */
+$zw--color-primary-light-5: mix(
+  $--color-white,
+  $--color-primary,
+  50%
+) !default; /* a0cfff */
+$zw--color-primary-light-6: mix(
+  $--color-white,
+  $--color-primary,
+  60%
+) !default; /* b3d8ff */
+$zw--color-primary-light-7: mix(
+  $--color-white,
+  $--color-primary,
+  70%
+) !default; /* c6e2ff */
+$zw--color-primary-light-8: mix(
+  $--color-white,
+  $--color-primary,
+  80%
+) !default; /* d9ecff */
+$zw--color-primary-light-9: mix(
+  $--color-white,
+  $--color-primary,
+  90%
+) !default; /* ecf5ff */
+
+/// color|1|Functional Color|1
+$zw--color-success: #52c41a !default;
+/// color|1|Functional Color|1
+$zw--color-warning: #faad14 !default;
+/// color|1|Functional Color|1
+$zw--color-danger: #ff4d4f !default;
+/// color|1|Functional Color|1
+$zw--color-info: #909399 !default;
+
+/// color|1|Font Color|4
+$zw--color-text-primary: #000000 !default;
+$zw--color-text-primary-light-1: rgba($zw--color-text-primary, 100%) !default;
+$zw--color-text-primary-light-2: rgba($zw--color-text-primary, 85%) !default;
+$zw--color-text-primary-light-3: rgba($zw--color-text-primary, 65%) !default;
+$zw--color-text-primary-light-4: rgba($zw--color-text-primary, 45%) !default;
+$zw--color-text-primary-light-5: rgba($zw--color-text-primary, 25%) !default;
+
+/// color|1|Font Color|2
+$zw--color-text-regular: #606266 !default;
+/// color|1|Font Color|2
+$zw--color-text-secondary: #909399 !default;
+/// color|1|Font Color|2
+$zw--color-text-placeholder: #c0c4cc !default;
+/// color|1|Border Color|3
+$zw--border-color-base: #dcdfe6 !default;
+/// color|1|Border Color|3
+$zw--border-color-light: #e4e7ed !default;
+/// color|1|Border Color|3
+$zw--border-color-lighter: #ebeef5 !default;
+/// color|1|Border Color|3
+$zw--border-color-extra-light: #f2f6fc !default;
+
+/* Link
+-------------------------- */
+$zw--link-color: $zw--color-primary-light-2 !default;
+$zw--link-hover-color: $zw--color-primary !default;
